@@ -1,0 +1,60 @@
+.toggle-btn {
+  background: #111; /* outer background */
+  border-radius: 50px;
+  padding: 4px;
+}
+
+.toggle-btn .option {
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn .option.active {
+  background: white;   /* active option background */
+  color: black;        /* active option text color */
+}
+
+.checklist{
+    list-style-type:none ;
+    padding: 0;
+}
+.checklist li::before{
+    content:"✓";
+    font-weight: bold;
+    margin-right: 8px;
+}
+.top-a{
+  color: black;
+}
+.top-a:hover{
+  color: #96EA63;
+}
+.top-b{
+  color:black;
+   border:2px solid #96EA63;
+    background-color: #96EA63;
+}
+.top-b:hover{
+  background-color: #96EA63 ;
+    color: black;
+    box-shadow: 0 0 10px rgba(215, 241, 225, 0.8),
+                0 0 30px rgba(24, 250, 118, 0.4);
+    transform: scale(1.05);
+
+}
+.top-c{
+  background-color: white;
+}
+.top-x{
+  color: black;
+}
+.top-x:hover{
+  color: #96EA63;
+}
+
