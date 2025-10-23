@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <p id="test"></p>
+  <script>
+    // console.log("Hello World!");
+    // alert("Hello World!");
+    // prompt("Hello World");
+    // function myDisplayer(x) {
+    //   document.getElementById("test").innerHTML = x;
+    // }
+    // function first() {
+    //   myDisplayer("hello");
+    // }
+    // function second() {
+    //   myDisplayer("World");
+    // }
+    // second();
+    // first();
+
+
+    // let languages = ["HTML","CSS","Bootstrap","Javascript"];
+    //  for( language of languages ){
+    //   console.log(language);
+    //  }
+
+    // function my(num) {
+    //   if( num%2 ===0){
+    //     console.log(num +" is even ");
+    //   }
+    //   else{
+    //     console.log( num+" is odd");
+    //   }
+    // }
+    // my(0);
+
+
+    //  function checkNumber(number) {
+    //   if (number%2===0) {
+    //     console.log(number + " is even");
+    //   }
+    //   else{
+    //     console.log(number + " is odd");
+    //   }
+    //  }
+    //  let userInput = prompt("Enter a number");
+    //  let number = (userInput);
+    //  checkNumber(number);
+
+
+    // function largeNumber(num1,num2,num3) {
+    //   if (num1 > num2 &&  num1 > num3) {
+    //   console.log(" num1 is greater");
+    //   }
+    //   else if (num2 > num1 && num2 > num3){
+    //     console.log(" num2 is greater");
+    //   }
+    //    else if (num3 > num1 && num3 > num2){
+    //     console.log( " num3 is greater");
+    //   }
+    //   else{
+    //     console.log("invalid");
+    //   }
+    // }
+    // let userInput1=prompt("Enter 1st number");
+    // let userInput2=prompt("Enter 2nd number");
+    // let userInput3=prompt("Enter 3rd number");
+    // let num1 =(userInput1);
+    // let num2 =(userInput2);
+    // let num3 =(userInput3);
+    // largeNumber(num1,num2,num3);
+
+
+
+    // function evenOdd(number) {
+    //   let even = []
+    //   let odd  =  []
+    //   for (let i = 0; i <= number; i++) {
+    //     if (i%2==0) {
+    //       even.push(i);
+    //     }else{
+    //       odd.push(i);
+    //     }
+    //   }
+    //   return [even, odd];
+    // }
+    // let userInput = prompt("Enter a number")
+    // let number = Number(userInput);
+    // let [even, odd] = evenOdd(number);
+
+    // console.log("Even Numbers", even);
+    // console.log("Odd Numbers", odd);
+
+
+
+//   function fibonnaci(n) {
+//   let series = [0,1];
+//   for(let i=2; i<n; i++){
+//   series.push(series[i-1] + series[i-2]); 
+//   }
+//   return series;
+// }
+//   let count = Number(prompt("Enter a number"));
+//   console.log( fibonnaci(count));
+
+
+//  function countvowels(str) {
+//   let vowels = "aeiouAEIOU";
+//   count = 0;
+//   for(let i = 0; i < str.length; i++){
+//     if(vowels.includes(str[i])){
+//       count++;
+//     }
+//   }  
+//    return count;
+//  }
+//   let userInput = prompt("Enter string");
+//   let totalVowels =  countvowels(userInput);
+//   console.log(totalVowels);
+
+// function factorial(n) {
+//   let result = 1;
+//   for(let i=1; i <=n; i++){
+//   result *=i; 
+//   }
+//   return result;
+// }
+//  let num = Number(prompt("Enter a number"));
+//  console.log(factorial(num));
+ 
+
+// function fabnocci(num) {
+//   let series = [0,1];
+//   for(let i=2; i<num; i++){
+//     series.push(series[i-1] + series[i-2]);
+
+//   }
+//   return series;
+// }
+// let count = Number(prompt("Enter a number"));
+//  console.log(fabnocci(count));
+ 
+// let number = Number(prompt("Enter a number"));
+
+// for(let i=number; i>=1; i--){
+//   let row ="";
+// for(let j=1; j<=i; j++){
+//    row += "*";  
+// }
+// console.log(row);
+// }
+   
+
+
+
+// let size = 5;
+
+// for (let i = 0; i < size; i++) {
+//   let row = "";
+//   for (let j = 0; j < size; j++) {
+//     if (
+//       i === 0 || i === size - 1 ||  
+//       j === 0 || j === size - 1 ||  
+//       i === j || i + j === size - 1 
+//     ) {
+//       row += "* ";
+//     } else {
+//       row += "  "; 
+//     }
+//   }
+//   console.log(row);
+// }
+
+
+// function myDisplayer(some) {
+// document.getElementById("test").innerHTML=some; 
+// }
+// function first() {
+// myDisplayer("Good Morning");  
+// }
+// function second() {
+// myDisplayer("Good Evening");  
+// }
+
+// second();
+// first();
+
+
+// function myFunction(some) {
+//   console.log(some);
+// }
+// function sumNumbers(num1, num2,mycallback) {
+//   let sum = num1 + num2;
+//   mycallback(sum);
+// }
+// sumNumbers(5, 10, myFunction);
+
+
+
+// function myFunction(some) {
+//   document.getElementById("test").innerHTML=some;
+// }
+// function numbers(num1,num2,callback) {
+// let sum = num1 + num2;
+// callback(sum); 
+// }
+// numbers(4,4,myFunction)
+
+// setTimeout(myfunction,3000);
+// function myfunction() {
+//   document.getElementById("test").innerHTML="Hello World";
+// };
+// setInterval(myfunction,3000);
+// function myfunction() {
+// let d=new Date();
+// document.getElementById("test").innerHTML=
+// d.getHours() +":"+
+// d.getMinutes() + ":"+
+// d.getSeconds();
+
+// }
+
+// function toCelsius(f) {
+//   return (5/9) * (f-32);
+// }
+
+//  let result= toCelsius(77);
+// console.log(result);
+
+
+ 
+// let myFunction=(a,b) => a*b;
+// document.getElementById("test").innerHTML=myFunction(4,3);
+
+ 
+// let promise = new Promise(function(resolve,reject){
+//   let x=0;
+//   if(x==0){
+//     resolve("ok");}
+//     else{
+//       reject("error");
+//     }
+//   });
+//   promise.then(function(){
+//     document.getElementById("test").innerHTML="ok";
+//   }).catch(function(){
+//     document.getElementById("test").innerHTML="error";
+//   }); 
+
+
+  // function myDisplayer(some) {
+  //   document.getElementById("test").innerHTML=some;
+  // }
+
+  // let promise = new Promise (function(resolve,reject){
+  //   let x=0;
+  //   if(x==0){
+  //     resolve("OK")
+  //   }else{
+  //     reject("Error")
+  //   }
+  // });
+
+  // promise.then(
+  //   function(value) {myDisplayer(value);},
+  //   function(error) {myDisplayer(error);}
+  // );
+
+
+// function myDisplayer(some) {
+// document.getElementById("test").innerHTML=some;
+// }
+
+// console.log("Downloading File !");
+
+// let downloadFile = new Promise(function(resolve,reject){
+//   setTimeout (() => {
+//     resolve("Download Complete");
+// },3000);
+// });
+
+// downloadFile.then((message)=>{
+//   console.log(message);
+// })
+
+// .catch((error) =>{
+//   console.log(error);
+  
+// });
+
+
+// function myDisplayer(some) {
+// document.getElementById("test").innerHTML=some;  
+// }
+// function calculate(num1 , num2 , callback ) {
+//  let sum = num1 + num2;
+//  callback(sum); 
+// }
+// calculate(5,5,myDisplayer);
+
+
+// setTimeout(myFunction,3000);
+// function myFunction() {
+// document.getElementById("test").innerHTML="I Love You";
+// };
+
+
+// function getData() {
+//  return new Promise((resolve)=>{
+//   setTimeout(()=> resolve("Data Recieved!"),2000);
+//  } );
+// }
+
+// async function showData() {
+//   console.log("Fetching Data...");
+//   let result = await getData();
+//   console.log(result);
+//   console.log("Done");
+// }
+// showData();
+
+// let promise = new Promise(function(resolve,reject){
+//   let success = true;
+//   if (success){
+//     resolve("task done"),3000;
+//   }else{
+//     reject("task failed");
+//   }
+// });
+// promise
+// .then((message) => console.log(message))
+// .catch((error) => console.log(error));
+
+
+function greet( name , callback) {
+console.log("Hi " + name);
+callback();
+}
+function sayBye() {
+  console.log("GoodBye");
+}
+greet("Sameer",sayBye);
+
+
+let promise = new Promise (function(resolve,reject){
+  let success = true;
+  if(success){
+    resolve("task done");
+  } else{
+    reject("task failed");
+  }
+});
+promise
+.then((result) => console.log(result))
+.catch((error) => console.log(error));
+
+
+
+
+
+
+
+
+
+
+    
+
+
+ 
+
+ 
+     
+   
+   
+
+    
+    
+
+
+  </script>
+</body>
+
+</html>

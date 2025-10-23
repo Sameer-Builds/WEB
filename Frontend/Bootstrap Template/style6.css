@@ -1,0 +1,116 @@
+.container{
+    width: 90%;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: dodgerblue;
+    padding: 10px;
+    margin: 20px;
+}
+.test{
+    display: flex;
+}
+ .box{
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+.container-inline{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+ .container-inline > div{
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+.container-column{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    background-color: dodgerblue;
+    padding: 10px;
+    margin: 20px;
+}
+
+.container-column > div{
+     background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+} 
+.container-row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    background-color: dodgerblue;
+    padding: 10px;
+    margin: 20px;
+}
+
+.container-row > div{
+     background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+.container-rc{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    background-color: dodgerblue;
+    padding: 10px;
+    margin: 20px;
+}
+
+.container-rc > div{
+     background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+.container-gr{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: dodgerblue;
+    padding: 10px;
+    margin: 20px;
+}
+.container-gr > div{
+     background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+.item4{
+    grid-row: 1 / span 3;
+}
+.container-gc{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: dodgerblue;
+    padding: 10px;
+    margin: 20px;
+}
+
+.container-gc > div{
+     background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+}
+.item5{
+    grid-column: 2 / span 2;
+}

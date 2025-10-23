@@ -1,0 +1,127 @@
+/* .container{
+    display: grid;
+    grid-template-areas: "header header" "menu content" "footer footer";
+    grid-template-columns: 1fr 3fr;
+    padding: 5px;
+    gap: 5px;
+    background-color: dodgerblue;
+}
+.container > div{
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+.container > div.header{
+    grid-area: header;
+    text-align: center;
+}
+.container > div.menu{
+    grid-area: menu;
+}
+.container > div.content{
+    grid-area: content;
+    padding: 50px; 
+}
+.container > div.footer{
+    grid-area: footer;
+    text-align: center;
+} */
+
+body{
+    margin:50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color:lightgreen;
+    border: 2px solid green;
+    height:auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.section{
+    display: flex;
+    border: 2px solid blue;
+    background-color: lightblue;
+    justify-content: center;
+    margin: 8px 25px;
+
+
+}
+.mas{
+   display: flex;
+
+}
+
+.sam1{
+    border: 2px solid darkred;
+    background-color: beige;
+    padding: 0px 78px;
+    margin: 10px 10px;
+  
+     
+}
+
+.sam2{
+     border: 2px solid darkred;
+    background-color: beige;
+    padding: 3px;
+    margin: 10px 0px;
+    display: flex;
+}
+.one{
+    background-color: black;
+    border: 4px solid lightslategrey;
+    padding: 20px 35px;
+
+}
+
+.three-boxes{
+    /* display: grid;
+    grid-template-areas: "left-box"
+     "right-box right-box";
+    grid-template-columns: 1fr 3fr; */
+    display: flex;
+    justify-content: center;
+}
+   
+.two-boxes{
+     margin-left: 20px 
+}
+
+
+.left-box{
+    background-color: aqua;
+    border: 2px solid green;
+    padding:  50px 128px;
+    /* margin-right: 35px;
+    margin-left: 90px; */
+}
+
+.right-box1, .right-box2{
+    background-color: aqua;
+    border: 2px solid green;
+    padding: 30px 128px;
+     /* margin-right: 10px;  */
+    
+}
+.right-box2{
+        margin-top: 5px;
+     /* margin-right: 100px;  */
+
+    
+}
+
+.sam3{
+    background-color:lightcoral ;
+    border: 3px solid gray;
+    margin: 10px 4px;
+    padding:    25px 34px;
+    
+    
+}

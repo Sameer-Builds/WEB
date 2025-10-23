@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a2d04e0bb0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="weather-container fade-in">
+    <div class="search-box d-flex justify-content-between align-items-center">
+      <input type="text" id="cityInput" placeholder="Enter Location" class="form-control" />
+      <button id="searchBtn"><i class="fas fa-search">🔍</i></button>
+    </div>
+
+    <h2 id="location">Your Location</h2>
+    <div class="weather-info">
+      <p><i class="fas fa-map-marker-alt"></i> <span id="cityName">Location</span></p>
+      <p><i class="fas fa-calendar-alt"></i> <span id="dateTime">DateTime | Monday</span></p>
+      <h3 id="temp">30°C</h3>
+      <div class="weather-icon">🌤️</div>
+      <h4 id="condition">Cloudy</h4>
+      <p>Humidity: <span id="humidity">60%</span></p>
+      <p>Wind Speed: <span id="wind">6.2 km/h</span></p>
+    </div>
+  </div>
+
+<script src="script.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+
+/* h1{
+font-family: cursive;
+}
+
+div p{
+    color: red;
+}
+
+div > p {
+    background-color: green;
+}
+
+
+div + p {
+    color: dodgerblue;
+}
+
+h1 ~ div    {
+    background-color: black;
+} */
+
+
+ /* 
+div p{
+
+
+    color: red;
+    font-style: italic;
+}
+
+div  > p{
+   background-color: aqua;
+
+}
+
+h2 + p{
+background-color: black;
+color:white;
+}
+
+ h3 ~ p{ 
+    background-color: orange;
+} */
+
+
+
+
+
+/* a:link {
+    color: blue;
+  
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: red;
+
+}
+
+a:active{
+    color: goldenrod;
+}
+
+
+
+a.high:hover{
+    color: darkblue;
+    font-size: 22px;
+
+}
+
+
+
+
+div{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+} */
+/* 
+ div:hover{
+
+    background-color: darkmagenta;
+}  */
+
+
+/* p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+} */
+
+/* p:first-child{
+    color: crimson;
+} */
+
+
+
+
+
+p::first-line{
+    color: red;
+        font-variant: small-caps;
+}
+p::first-letter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+} 
+
+
+.high{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: beige;
+    color: black;
+    border-radius: 10%;
+    text-decoration: none;
+
+    
+
+}
+.high:hover{
+ background-color: black;
+ color: white;   
+}
+
+.low{
+padding: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+    color: black;
+    border-radius: 10%;
+
+}
+.low:hover{
+    background-color: blueviolet;
+
+}
+
+#first{
+padding: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(1, 28, 28);
+    color: brown;
+    border-radius: 10%;
+}
+#first:hover{
+    background-color: antiquewhite;
+}
+
+#last{
+padding: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: darkgrey;
+    color: rgb(107, 99, 99);
+    border-radius: 10%;
+    
+}
+
+#last:hover{
+    background-color: white;
+}
+
+div{
+ display: flex; 
+ justify-content: center;   
+ } 
+
+ ::marker{
+    color: crimson;
+    font-size: 20px;
+}
+
+ ::selection{
+    background-color: green;
+    color: brown;
+} 
+
+ .name{ 
+    padding: 50px 100px;
+    margin: 5%;
+}
+
+.brown{
+    color: red;
+    font-size: 50px;
+} 
+
+
+
+.container{
+    display: flex;
+    background-color: dodgerblue;
+}
+
+.container > div {
+  background-color: white;
+  margin:25px;
+  padding: 50px;
+  font-size: large;
+      text-align: center;
+  line-height: 75px;
+   
+flex-wrap: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
